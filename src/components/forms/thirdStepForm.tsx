@@ -36,7 +36,7 @@ export const ThirdStepForm = ({
             <div key={option.value}>
               <input
                 className="peer sr-only"
-                defaultValue={option.value}
+                value={option.value}
                 id={option.value}
                 type="radio"
                 {...register("food")}
