@@ -42,12 +42,12 @@ export const EmailTemplate: React.FC<Readonly<MainFormProps>> = ({ food }) => (
 
     <main style={{ marginTop: "1rem" }}>
       <h2 style={{ fontSize: "1.25rem", fontWeight: "600", color: "black" }}>
-        Hi Danielle,
+        Hi Zaire,
       </h2>
 
       <p style={{ marginTop: "1rem", color: "#4a5568" }}>
-        You have received a new inquiry through your portfolio. Below are the
-        details of the submission:
+        You have recieved a valentines confirmation email. Please enjoy your
+        valentines day!
       </p>
 
       <div style={{ marginTop: "1.5rem" }}>
@@ -69,11 +69,5 @@ export const EmailTemplate: React.FC<Readonly<MainFormProps>> = ({ food }) => (
         </ul>
       </div>
     </main>
-
-    <footer style={{ marginTop: "2.5rem" }}>
-      <p style={{ textAlign: "center", color: "#4a5568" }}>
-        © Jan Danielle Plaza 2024. All rights reserved.
-      </p>
-    </footer>
   </section>
 );
