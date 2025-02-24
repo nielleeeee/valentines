@@ -11,8 +11,8 @@ export const sendEmail = async (formData: MainFormProps) => {
   try {
     const { data } = await resend.emails.send({
       from: "onboarding@resend.dev",
-      to: "zairevilla1@gmail.com",
-      subject: "Valentines Invitation",
+      to: "jandnllplz@gmail.com",
+      subject: "You have received a valentines Invitation",
       react: EmailTemplate({
         food,
       }) as React.ReactElement,
